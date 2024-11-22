@@ -1,12 +1,11 @@
 ZOHO CODING QUESTION PAPER
----------------------------
 MARKS : 40                                                                                            
 TIME : 45 MINS
----------------------------
+------------------------------------------------------------------------------------------
 Question - 1
 Given a number N, the task is to print the prime numbers from 1 to N.
-Examples: 
 
+Examples: 
 Input: N = 10
 Output: 2, 3, 5, 7
 Explanation : The output “2, 3, 5, 7” for input N = 10 represents the list of the prime numbers less than or equal to 10. 
@@ -14,32 +13,46 @@ Explanation : The output “2, 3, 5, 7” for input N = 10 represents the list o
 Input: N = 5
 Output: 2, 3, 5 
 Explanation : The output “2, 3, 5” for input N = 5 represents the list of the prime numbers less than or equal to 5.
----------------------------
+
+Solution:
+1. Start by reading the input number N.
+2. Use a loop to check numbers from 2 to N.
+3. For each number, check if it's divisible by any number from 2 to the square root of the number.
+4. If divisors are found that number is not a prime number ,If no divisors are found, mark the number as prime.
+5. After checking all numbers, print the primes.
+
+------------------------------------------------------------------------------------------
 Question - 2
 Given a number N. Check whether N is a Twisted Prime number or not.
 Note: A number is called Twisted Prime if it is a prime and its reverse is also a prime.
 
 Example 1:
-
 Input: N = 97
 Output: 1
-Explanation: 97 is a prime number. Its 
-reverse 79 is also a prime number. Thus 
-97 is a  twisted Prime and so, the answer is 1.
+Explanation: 97 is a prime number. 
+Its reverse 79 is also a prime number. 
+Thus 97 is a  twisted Prime and so, the answer is 1.
 
 Example 2:
 Input: N = 43
 Output: 0
 Explanation: 43 is a prime number but its 
-reverse 34 is not a prime.So, 43 is not a 
-twisted prime and thus, answer is 0.
+reverse 34 is not a prime.
+So, 43 is not a twisted prime and thus, answer is 0.
 
 Expected Time Complexity:(O(sqrt(max(N,RevN))), here RevN is the reverse of N.
 Expected Space Complexity:O(1)
 
 Constraints:
 1<=N<=109
----------------------------
+
+Solution
+To check if a number is a Twisted Prime:
+1. Check if N is a prime number.
+2. Reverse the number and check if the reversed number is also prime.
+3. If both are prime, the number is a Twisted Prime.
+4. Otherwise, it’s not.
+------------------------------------------------------------------------------------------
 Question - 3 
 Given two numbers  a and b as interval range, the task is to find the prime numbers in between this interval.
 
@@ -48,7 +61,16 @@ Input : a = 1, b = 10
 Output : 2, 3, 5, 7
 Input : a = 10, b = 20
 Output : 11, 13, 17, 19
----------------------------
+
+Solution
+1. We need to create a function that takes two numbers `a` and `b` as parameters.
+2. Inside this function, we'll loop through all numbers in the interval `[a, b]`.
+3. For each number, check if it is prime.
+4. A number is prime if it is only divisible by 1 and itself. To check this, 
+   we'll check divisibility from 2 up to the square root of the number.
+5. If the number is prime, we will add it to our result.
+6. Once the loop finishes, we print all the prime numbers.
+------------------------------------------------------------------------------------------
 Question - 4 
 You have given two sorted arrays arr1[] & arr2[] of distinct elements. 
 The first array has one element extra added in between. Return the index of the extra element.
@@ -63,6 +85,7 @@ Explanation: In the first array, 9 is extra added and its index is 4.
 Input: arr1[] = [3,5,7,8,11,13], arr2[] = [3,5,7,11,13]
 Output: 3
 Explanation: In the first array, 8 is extra and its index is 3.
+
 Input: arr1[] = [3,5], arr2[] = [3]
 Output: 1
 Explanation: In the first array, 5 is extra and its index is 1.
@@ -70,7 +93,15 @@ Explanation: In the first array, 5 is extra and its index is 1.
 Constraints:
 2<=arr1.size()<=105
 1<=arr1[i],arr2[i]<=106
----------------------------
+
+Solution
+   Step 1: We define the arrays `arr1` and `arr2`, where arr1 has one extra element.
+    Step 2: Use a loop to iterate through both arrays simultaneously.
+    Step 3: Compare elements at the same index in both arrays.
+    Step 4: If the elements match, move on to the next index.
+    Step 5: If the elements do not match, we found the extra element in `arr1` at the current index.
+    Step 6: Return the index where the extra element is located.
+------------------------------------------------------------------------------------------
 Question - 5 
 Given an array arr[]. Push all the zeros of the given array to the right end of the array while maintaining the order of non-zero elements. 
 Do the mentioned change in the array in place.
@@ -91,7 +122,7 @@ Explanation: No change in array as there are all 0s.
 Constraints:
 1 ≤ arr.size() ≤ 105
 0 ≤ arr[i] ≤ 105
----------------------------
+------------------------------------------------------------------------------------------
 Question - 6
 You are given a sorted array consisting of only integers where every element appears exactly twice, 
 except for one element which appears exactly once.
@@ -111,9 +142,10 @@ Output: 10
 Constraints:
 1 <= nums.length <= 105
 0 <= nums[i] <= 105
----------------------------
+------------------------------------------------------------------------------------------
 Question - 7
-Given an integer array nums where every element appears three times except for one, which appears exactly once. Find the single element and return it.
+Given an integer array nums where every element appears three times except for one, 
+which appears exactly once. Find the single element and return it.
 
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
@@ -130,7 +162,7 @@ Constraints:
 -231 <= nums[i] <= 231 - 1
 
 Each element in nums appears exactly three times except for one element which appears once.
----------------------------
+------------------------------------------------------------------------------------------
 Question - 8
 You are given a string s consisting of n characters which are either 'X' or 'O'.
 A move is defined as selecting three consecutive characters of s and converting them to 'O'. 
@@ -159,5 +191,5 @@ Explanation: There are no 'X's in s to convert.
 Constraints:
 3 <= s.length <= 1000
 s[i] is either 'X' or 'O'.
----------------------------
+
 
