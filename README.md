@@ -30,18 +30,17 @@ Sliding window<br/>
 
 Here is the data formatted into a table:
 
-| **S.No** | **Data Structure**    | **Patterns used to Solve Problems**                                                                                           |
+Here is the data formatted into a table:
+
+| **S.No** | **Data Structure**    | **Patterns used to Solve Problems**                                                                                             |
 |----------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| 1        | String                | Two Pointers, Fast and Slow Pointers, Sliding Window, Subsets                                                                  |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2        | Array                 | Two Pointers, Fast and Slow Pointers, Sliding Window, Modified Binary Search, Merge Intervals, Two Heaps, Top K Elements, K- 
-                                      Way Merge, Cyclic Sort, Topological Sort, Fibonacci Numbers, 0/1 Knapsack, Palindrome Subsequence, Longest Common Substring, 
-                                     Bitwise XOR 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 3        | Linked List           | Two Pointers, Fast and Slow Pointers, Sliding Window, In-Place Reversal of Linked List                                         -------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 4        | Matrix (2D Array)     | Islands (Matrix Traversal), Breadth First Search, Depth First Search                                                           -------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 5        | Queue                 | Islands (Matrix Traversal), K-Way Merge, Breadth First Search, Topological Sort, Subsets                                       -------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 6        | Heap                  | Merge Intervals, Two Heaps, Top K Elements, K-Way Merge                                                                        -------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 7        | Tree                  | Breadth First Search, Depth First Search                                                                                       -------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8        | Graph                 | Breadth First Search, Depth First Search, Topological Sort                                                                     -------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 9        | Hash Tables           | Topological Sort, Fibonacci Numbers, 0/1 Knapsack, Palindrome Subsequence, Longest Common Substring                            -------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 10       | Bits                  | Bitwise XOR                                                                                                                    -------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1        | String                | Two Pointers, Fast and Slow Pointers, Sliding Window, Subsets                                                                  |
+| 2        | Array                 | Two Pointers, Fast and Slow Pointers, Sliding Window, Modified Binary Search, Merge Intervals, Two Heaps, Top K Elements, K-Way Merge, Cyclic Sort, Topological Sort, Fibonacci Numbers, 0/1 Knapsack, Palindrome Subsequence, Longest Common Substring, Bitwise XOR |
+| 3        | Linked List           | Two Pointers, Fast and Slow Pointers, Sliding Window, In-Place Reversal of Linked List                                          |
+| 4        | Matrix (2D Array)     | Islands (Matrix Traversal), Breadth First Search, Depth First Search                                                            |
+| 5        | Queue                 | Islands (Matrix Traversal), K-Way Merge, Breadth First Search, Topological Sort, Subsets                                        |
+| 6        | Heap                  | Merge Intervals, Two Heaps, Top K Elements, K-Way Merge                                                                         |
+| 7        | Tree                  | Breadth First Search, Depth First Search                                                                                         |
+| 8        | Graph                 | Breadth First Search, Depth First Search, Topological Sort                                                                      |
+| 9        | Hash Tables           | Topological Sort, Fibonacci Numbers, 0/1 Knapsack, Palindrome Subsequence, Longest Common Substring                            |
+| 10       | Bits                  | Bitwise XOR                                                                                                                    |
