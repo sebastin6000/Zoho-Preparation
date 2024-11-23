@@ -28,9 +28,21 @@ Binary search<br/>
 Pattern Printing <br/>
 Sliding window<br/>
 
-Here is the data formatted into a table:
+### **DSA Topics for Zoho**
 
-Here is the data formatted into a table:
+| **Data Structures**    | **Algorithms**           |
+|------------------------|--------------------------|
+| Array                  | Recursion                |
+| 2D Array               | Backtracking             |
+| ArrayList              | Binary Search            |
+| Strings                | Pattern Printing         |
+| Integers               | Sliding Window           |
+| Linked List            |                          |
+| Stack and Queue        |                          |
+| HashSet                |                          |
+| HashMap                |                          |
+
+
 
 | **S.No** | **Data Structure**    | **Patterns used to Solve Problems**                                                                                             |
 |----------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------|
