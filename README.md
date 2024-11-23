@@ -10,18 +10,20 @@
 
 [Coding Questions From Zoho Cheet Sheet](https://docs.google.com/document/d/1U4B99Z7plkCM-1r1XU_bt4V25i2Y3nHWPSwQzledIy4/edit?tab=t.0)
 
-DSA topics for ZOHO<br/>
+DSA topics for ZOHO<br/><br/>
+DATA STRUCTURES
+Array, 2D Array, ArrayList<br/>
+Strings<br/>
+Integers <br/>
+Linked List<br/>
+Stack and Queue<br/>
+HashSet <br/>
+HashMap<br/><br/>
 
-Array, 2D Array, ArrayList
-Strings
-Integers 
-Linked List
-Stack and Queue
-HashSet 
-HashMap
+ALGORITHMS<br/>
 
-Recurrision 
-Backtracking
-Binary search
-Pattern Printing 
-Sliding window
+Recurrision <br/>
+Backtracking<br/>
+Binary search<br/>
+Pattern Printing <br/>
+Sliding window<br/>
